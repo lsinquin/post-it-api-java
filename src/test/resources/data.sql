@@ -1,0 +1,10 @@
+INSERT INTO app_user (id, mail, password) VALUES (nextval('app_user_id_seq'), 'test@mail.com', '$2a$10$tQzwZTHJkkfdAg/fB/2G7.XwuefsSq5NFhE9PhFEd5qTBgC5wUOUe');
+INSERT INTO app_user (id, mail, password) VALUES (nextval('app_user_id_seq'), 'test2@mail.com', '$2a$10$l6gEjWrkUHBqGlKB2VvpXuenzs5KavVHqhfFEJcDB0vu0RfAl/.O6');
+INSERT INTO app_user (id, mail, password) VALUES (nextval('app_user_id_seq'), 'test3@mail.com', '$2a$10$GumGaq3DjXyNImrfhQHM.evxaqy81pQboYuCpPBD9USVQWy2Lf2la');
+INSERT INTO note (id, title, content, user_id) VALUES (nextval('note_id_seq'), 'title 1', 'content 1', 1);
+INSERT INTO note (id, title, content, user_id) VALUES (nextval('note_id_seq'), 'title 2', 'content 2', 2);
+INSERT INTO note (id, title, content, user_id) VALUES (nextval('note_id_seq'), 'title 3', 'content 3', 1);
+INSERT INTO note (id, title, content, user_id) VALUES (nextval('note_id_seq'), 'title 4', 'content 4', 1);
+INSERT INTO note (id, title, content, user_id) VALUES (nextval('note_id_seq'), 'title 5', 'content 5', 2);
+INSERT INTO note (id, title, content, user_id) VALUES (nextval('note_id_seq'), 'title 6', 'content 6', 1);
+INSERT INTO note (id, title, content, user_id) VALUES (nextval('note_id_seq'), 'title 7', 'content 7', 1);
